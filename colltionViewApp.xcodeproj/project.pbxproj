@@ -14,6 +14,8 @@
 		970300792A619DF100A8565C /* colltionViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970300782A619DF100A8565C /* colltionViewAppTests.swift */; };
 		970300832A619DF100A8565C /* colltionViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970300822A619DF100A8565C /* colltionViewAppUITests.swift */; };
 		970300852A619DF100A8565C /* colltionViewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970300842A619DF100A8565C /* colltionViewAppUITestsLaunchTests.swift */; };
+		9703009B2A61AA4700A8565C /* myCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970300992A61AA4700A8565C /* myCollectionViewItem.swift */; };
+		9703009C2A61AA4700A8565C /* myCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9703009A2A61AA4700A8565C /* myCollectionViewItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		9703007E2A619DF100A8565C /* colltionViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colltionViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		970300822A619DF100A8565C /* colltionViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colltionViewAppUITests.swift; sourceTree = "<group>"; };
 		970300842A619DF100A8565C /* colltionViewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colltionViewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		970300992A61AA4700A8565C /* myCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewItem.swift; sourceTree = "<group>"; };
+		9703009A2A61AA4700A8565C /* myCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCollectionViewItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				970300662A619DF000A8565C /* AppDelegate.swift */,
 				970300682A619DF000A8565C /* ViewController.swift */,
+				970300992A61AA4700A8565C /* myCollectionViewItem.swift */,
+				9703009A2A61AA4700A8565C /* myCollectionViewItem.xib */,
 				9703006A2A619DF100A8565C /* Assets.xcassets */,
 				9703006C2A619DF100A8565C /* Main.storyboard */,
 				9703006F2A619DF100A8565C /* colltionViewApp.entitlements */,
@@ -227,6 +233,7 @@
 			files = (
 				9703006B2A619DF100A8565C /* Assets.xcassets in Resources */,
 				9703006E2A619DF100A8565C /* Main.storyboard in Resources */,
+				9703009C2A61AA4700A8565C /* myCollectionViewItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +260,7 @@
 			files = (
 				970300692A619DF000A8565C /* ViewController.swift in Sources */,
 				970300672A619DF000A8565C /* AppDelegate.swift in Sources */,
+				9703009B2A61AA4700A8565C /* myCollectionViewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
